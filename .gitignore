@@ -1,0 +1,14 @@
+# .gitignore
+.venv/
+__pycache__/
+*.pyc
+
+data/chroma/
+data/.manifest.json
+debug_blocks.txt
+
+data/docs/*
+!data/docs/.gitkeep
+
+.env
+.streamlit/secrets.toml
